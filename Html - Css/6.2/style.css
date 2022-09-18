@@ -1,0 +1,46 @@
+* {
+    background-color: rgba(190, 174, 153, 0.541);
+}
+
+.lorem {
+    color: purple;
+}
+
+h1 {
+    color: aqua;
+    font-family: 'Combo', cursive;
+}
+
+#image {
+    margin: auto;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+p {
+    padding: 25;
+    text-align:
+}

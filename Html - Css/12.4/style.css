@@ -1,0 +1,58 @@
+body {
+    padding 0;
+    margin: 0;
+    background-color: black;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    margin: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+
+
+.box:before,
+.box:after,
+.box> :first-child::before,
+.box> :first-child::after {
+    width: 30px;
+    content: '';
+    height: 30px;
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+}
+
+.box:before {
+    border-width: 1px 0px 0 1px;
+    top: 0;
+    left: 0;
+
+}
+
+.box:after {
+    border-width: 1px 1px 0 0px;
+    top: 0;
+    right: 0;
+
+}
+
+.box> :first-child:before {
+    border-width: 0px 1px 1px 0px;
+    bottom: 0;
+    right: 0;
+
+}
+
+.box> :first-child::after {
+    bottom: 0;
+    left: 0;
+    border-width: 0px 0px 1px 1px;
+
+}

@@ -1,0 +1,168 @@
+* {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+.div1 {
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    background-color: none;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.div1::before {
+    content: '';
+    background-color: red;
+    transform: translateX(-100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease-in-out;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.div1:hover::before {
+    transform: translateX(0);
+}
+
+.div2 {
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.div2::before {
+    content: '';
+    background-color: rgb(19, 19, 172);
+    transform: translateY(-100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease-in-out;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+}
+
+.div2:hover::before {
+    transform: translateY(0);
+}
+
+
+.div3 {
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.div3::before {
+    content: '';
+    background-color: yellow;
+    transform: rotate(90deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease-in-out;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    transform-origin: left top;
+    z-index: -1;
+}
+
+
+.div3:hover::before {
+    transform: rotate(0);
+}
+
+
+
+.div4 {
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.div4::before {
+    content: '';
+
+    transform: skew(0deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease-in-out;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+}
+
+.div4:hover::before {
+    transform: skew(90deg);
+    background-color: rgb(241, 10, 145);
+}
+
+.div5 {
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    color: black
+}
+
+.div5::before {
+    content: '';
+    transform: scale(2);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div5:hover::before {
+    content: 'scale';
+    transform: scale(1);
+    background-color: black;
+    text-align: center;
+    color: beige;
+}

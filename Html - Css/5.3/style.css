@@ -1,0 +1,12 @@
+* {
+    background-color: rgba(35, 148, 177, 0.541);
+}
+
+li {
+    color: purple;
+}
+
+#title {
+    color: aqua;
+    font-family: 'Combo', cursive;
+}

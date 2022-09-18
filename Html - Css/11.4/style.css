@@ -1,0 +1,25 @@
+.flex-conteiner {
+    display: flex;
+    height: 75vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.box {
+    height: 100px;
+    width: 150px;
+}
+
+.box {
+    background-color: rgba(67, 128, 17, 0.747);
+}
+
+.box2 {
+    background-color: rgb(37, 95, 202);
+}
+
+.box3 {
+    background-color: rgb(175, 49, 49);
+
+}

@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+header {
+    background-color: rgb(214, 114, 197);
+    margin: 4vh auto;
+    min-width: 80vw;
+    max-width: 96vw;
+    min-height: 40vh;
+    max-height: 80vh;
+}
+
+
+/* responsive text */
+
+/* calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+} */
+
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (min-width: 300px) {
+    html {
+        font-size: calc(16px + 8 * ((100vw - 300px) / 700));
+    }
+
+}

@@ -1,0 +1,15 @@
+#outer {
+    width: 100px;
+    height: 100px;
+    background: darkcyan;
+    margin: 50px;
+}
+
+#inner {
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+    position: relative;
+    /* הבעיה הייתה שהמיקום היה absolute,ולכן במקום שהוא יהיה 10 פיקסלים מתתת לכחול הוא היה מתחת לגבול  העליון של הגוף (אליו הוא השתייך באופן אוטומטי בהעדר relative)*/
+    top: 10px;
+}
