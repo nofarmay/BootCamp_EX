@@ -1,9 +1,8 @@
-var x = Nofar
-var y = 3
+var x = Nofar;
+var y = 3 ;
 var Nofar = {name:"Nofar", model:"1994", color:"ligth brown"};
-var a = 9 ''
-true
-var x = Nofar
-var x = Nofar
-var x = Nofar
-var x = Nofar
+var a = true;
+var b = null;
+var k = undefined;
+var h= Symbol();
+console.log( x,y,Nofar,a,b,k,h);

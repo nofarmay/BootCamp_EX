@@ -6,7 +6,6 @@ d) -4
 3. Which of the following is/are booleans?
 a) true
 b) false
-c) "true"
 4. What is the result of 80 + 71.2?
 a) 151.2
 5. What is the result of "80" + 71.2?
@@ -33,3 +32,26 @@ much tax they should pay.
 */
 // Round the number 50.6 to its nearest integer
 //Create a variable that is undefined
+
+question
+var x = 10
+ let y = 11 
+ const z = 12 
+  
+  var a = 13
+  var a = 14 
+
+  var b 
+  var b = "He's got it!"
+
+  1. let bill = "the restaurant bill is"
+
+  2. let tax = "tax you should pay" 
+
+  3. let all = `your total bill is $${bill+tax}.`;
+
+Math.round(50.6)
+
+  var undefined = undefined
+
+
