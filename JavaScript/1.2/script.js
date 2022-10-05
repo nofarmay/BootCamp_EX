@@ -1,4 +1,4 @@
-1. Which of the following is/are strings?
+/*1. Which of the following is/are strings?
 c) '4'
 2. Which of the following is/are numbers?
 a) 4
@@ -16,7 +16,7 @@ a) number
 b)string
 */
 //------Submit your answers under the
-question------//
+/*question------//
 //create three different ways to declare variables
 //declare a variable and reassign a value to it
 //create a variable and after that assign a string
@@ -33,7 +33,7 @@ much tax they should pay.
 // Round the number 50.6 to its nearest integer
 //Create a variable that is undefined
 
-question
+// question
 var x = 10
  let y = 11 
  const z = 12 
