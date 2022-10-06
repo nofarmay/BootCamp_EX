@@ -1,0 +1,1 @@
+function isString(str, cbFun) {}
