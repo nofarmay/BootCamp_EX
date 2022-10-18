@@ -5,27 +5,23 @@
 
 const library = [
   {
-    author: "Saul Singer ,Dan Senor",
-    title: "start up nation",
+    author: "Bill Gates",
+    title: "The Road Ahead",
     readingStatus: true,
   },
   {
-    author: "Napoleon Hill",
-    title: "think and grow rich",
+    author: "Steve Jobs",
+    title: "Walter Isaacson",
     readingStatus: true,
   },
   {
-    author: "George Samuel Clason",
-    title: "richest man in babylon",
+    author: "Suzanne Collins",
+    title: "Mockingjay: The Final Book of The Hunger Games",
     readingStatus: false,
   },
 ];
 
-function displayBooks(arr) {
-  arr.forEach(function (b) {
-    if (b.readingStatus == true) {
-      console.log(`${b.title} by ${b.author} is available for reading!`);
-    }
-  });
+const canBeRead = library.filter((b) => (b.readingStatus = true));
+{
+  console.log(library.title, library.author, library.readingStatus);
 }
-displayBooks(library);

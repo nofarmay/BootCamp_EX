@@ -5,3 +5,5 @@
 // So that if you call this function with this array for example:
 // ["boo", "doooo", "hoo","ro"]
 // it will return this array: [3, 5, 3, 2]
+ לברר 
+ 

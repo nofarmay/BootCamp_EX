@@ -3,26 +3,25 @@
 
 // 1. Write a function called doubleValues which accepts an
 // array of integers and returns a new array with all the
-// values in the array passed to the 
+// values in the array passed to the function doubled
 
 function doubleValues(arr) {
   return arr.map(function (num) {
-    return num*2 ;
+    return num * 2;
   });
 }
 
 const ARR = [1, 2, 3, 4, 5];
 
-
 // 2. Write a function called onlyEvenValues which accepts an
 // array and returns a new array with only the even values in
 // the array passed to the function.
 
-function onlyEvenValues(arr){   
-  let res= [];
+function onlyEvenValues(arr) {
+  let res = [];
   return arr.forEach(function (i) {
-    if (i % 2 === 0){
-    res.push(i)
+    if (i % 2 === 0) {
+      res.push(i);
     }
   });
   return res;
@@ -34,9 +33,9 @@ function onlyEvenValues(arr){
 // array. The returned array should only contain elements
 // that are strings.
 
-function showFirstAndLast (arr){
-  return arr.forEach(i===String)
-  return
+function showFirstAndLast(arr) {
+  let res1 = [];
+  return arr.forEach(function (e) {});
 }
 
 // 4. Write a function called vowelCount which accepts a string
@@ -46,15 +45,12 @@ function showFirstAndLast (arr){
 // should be the count. e.g. {a:3, o:2,u:4}. Should not be
 // case-sensitive.
 
-
 // 5. Write a function capitalize that takes a string as an
 // argument and will return the whole string capitalized.
-
 
 // 6. Write a function called shiftLetters that takes a string as an
 // argument and return’s an encoded string with each letter
 // shifted down the alphabet by one.
-
 
 // 7. Create a function called swapCase that takes a string as
 // an argument and returns a string that every other word is
