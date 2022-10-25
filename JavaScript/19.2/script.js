@@ -27,7 +27,7 @@ const users = [
     email: "timmy.hotmail.com",
   },
 ];
-
+// 1.
 document.body.append(document.createElement("ol"));
 const ol = document.querySelector("ol");
 users.forEach((user) => {
@@ -35,3 +35,6 @@ users.forEach((user) => {
   firstAndLast.innerHTML = `${user.firstName} ${user.lastName}`;
   ol.append(firstAndLast);
 });
+// 2.
+ol.style.listStyle = "none";
+// 3.

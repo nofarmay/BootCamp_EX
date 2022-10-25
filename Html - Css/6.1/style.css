@@ -20,6 +20,7 @@
     border-color: black;
     margin-bottom: 5px;
     border: black solid 1px;
+    padding-top: 17px;
 }
 
 .side {
@@ -29,7 +30,8 @@
     text-align: left;
     float: left;
     border: black solid 1px;
-
+    padding-left: 15px;
+    padding-top: 17px;
 }
 
 .main {
@@ -39,6 +41,8 @@
     text-align: right;
     float: right;
     border: black solid 1px;
+    padding-right: 15px;
+    padding-top: 17px;
 
 }
 

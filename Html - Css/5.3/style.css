@@ -1,12 +1,26 @@
 * {
-    background-color: rgba(35, 148, 177, 0.541);
+    padding: 0;
+    margin: 0;
+
 }
 
-li {
-    color: purple;
+body {
+    background: url(./images/5.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-#title {
-    color: aqua;
-    font-family: 'Combo', cursive;
+.conteiner {
+    display: flex;
+    flex: content;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    text-align: center;
+    color: rgb(243, 220, 115);
+}
+
+.profile {
+    width: 150px;
 }
