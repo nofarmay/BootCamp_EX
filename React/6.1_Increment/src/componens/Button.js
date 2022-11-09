@@ -1,8 +1,9 @@
+
 function Button() { 
     return (
    <div>
-    <button>Important</button>
-    <button>Not Important</button>
+    <button>setCount</button>
+    
    </div>
     )
   }

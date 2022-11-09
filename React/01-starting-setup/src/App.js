@@ -1,12 +1,12 @@
-
-import Button from './componens/Button'
-function App() { 
+import React from 'react'
+function App() {
+  
   return (
- <div>
-</div>
+    <div > 
+    </div>
   )
 }
 
-export default App;
 
- 
+
+export default App
