@@ -47,7 +47,6 @@ function handleDelete(id , index) {
       setAccount(newAccount);
 };
   
-
   return (
     <div>
       <h1>hello</h1>
