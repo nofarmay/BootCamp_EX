@@ -1,12 +1,9 @@
-import Label from "./Components/Label";
-import Buttons from "./Components/Buttons.jsx";
-import "./App.css";
+import react from 'react';
 
 function App() {
   return (
-    <div className="app">
-      <Label />
-      <Buttons />
+    <div>
+      
     </div>
   );
 }
