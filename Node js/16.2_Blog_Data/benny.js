@@ -69,14 +69,14 @@ MongoClient.connect(connectionURL, { useNewUrlParser: true }, (err, Client) => {
 //      if (err) throw err;
 //      console.log("Number of documents inserted: " + res.insertedCount);
 //    });
-  //! 3 → inserting posts to blogPosts collection
-//   db.collection("posts").insertMany(posts, function (err, res) {
-//     if (err) throw err;
-//     console.log("Number of documents inserted: " + res.insertedCount);
-//   });
+  // ! 3 → inserting posts to blogPosts collection
+  db.collection("posts").insertMany(posts, function (err, res) {
+    if (err) throw err;
+    console.log("Number of documents inserted: " + res.insertedCount);
+  });
   //! 4 → Create at least 1 comment on a post.
   db.collection("posts").updateOne(
-      { _id: ObjectId("63975828fa7519c81a121981") },
+      { _id: ObjectId("63972ec9b29f5beccd047a5d") },
       { $push: { comments: { writer: "", content: "good to hear" } } }
     ),
       (error, result) => {
